@@ -1,0 +1,185 @@
+header{
+    height:100vh;
+    width:100%;
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-brown-cartoon-snack-gourmet-restaurant-tea-e-commerce-banner-picture-image_1094319.jpg");
+    filter:brightness(100%);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    width:100%;
+    height:100px;
+    display:flex;
+    font-weight: 110;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2.5em;
+    letter-spacing: 2.3px;
+    font-weight: 210;
+    font-style: bold;
+    padding-top: 1.75cm;
+    padding-right: 1cm;
+    color: rgb(233, 21, 21);
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    padding-top: 1.4cm;
+    padding:10px 20px;
+    position:relative;
+    font-weight: 210;
+}
+.menu a:before{
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:0%;
+  height:100%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  transition:0.2s linear;
+}
+.menu a:hover:before{
+    width:90%;
+}
+.booking a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding-top: 1cm;
+    padding:10px 20px;
+    background: rgb(187, 48, 48);
+}
+.caption{
+    max-width: 650px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-80%);
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+.caption span{
+    letter-spacing: 4px;
+    font-size: 1.5em;;
+}
+
+.caption h1{
+    font-size:3.5em;
+    font-family: "Playwrite NL Guides", cursive;
+    color: rgb(0, 0, 0);
+}
+.caption a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 2cm;
+    padding:10px 20px;
+    background: rgb(233, 7, 7);
+    border-radius:8px;
+}
+.caption a:hover{
+    background: transparent;
+    border:2px solid indianred;
+}
+#aboutus 
+{
+    height:100vh;
+    width:100%;
+    background-image: url("https://img.freepik.com/free-photo/healthy-food-concept-with-copyspace-left-side_23-2147803029.jpg?t=st=1742055226~exp=1742058826~hmac=0e01e332f6701546fbed495807759a5729ba6289581681b6226e3e7f699e2ec7&w=996");
+    filter:brightness(100%);
+    background-size: cover;
+    text-align: left;
+}
+#aboutus div>h1
+{
+    padding-top: 1.5cm;;
+     font-size: 3em;
+     font-family: serif;
+     color: rgb(0, 0, 0);
+     padding-left: 20px;
+}
+#aboutus div>h2{
+    font-size: 2em;
+    font-family: serif;
+    color:rgb(0, 0, 0);
+    padding-left: 20px;
+}
+#aboutus section{
+    color:rgb(0, 0, 0);
+    width: 50vw;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+#ourservices{
+    width:100%;
+    height:100vh;
+    background-image:url("https://plus.unsplash.com/premium_photo-1661627606440-a901eb9588c5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-size: cover;
+    filter: brightness(100%);
+    text-align: justify;
+}
+#ourservices h1{
+    font-size: 3em;
+    padding-top: 1cm;
+    font-family: serif;
+    color: black;
+    text-align: right;
+    padding-right: 50px;
+}
+#ourservices section{
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    text-align: right;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+#packages{
+    height:100vh;
+    width:100%;
+    background-image: url("https://img.freepik.com/premium-photo/high-angle-view-drink-table_1048944-27498538.jpg?w=996");
+    filter:brightness(100%);
+    background-size: cover;
+    text-align: center;
+}
+#packages h1{
+
+    text-align: left;
+    font-size: 3em;
+    padding-top: 1.5cm;
+    font-family: serif;
+   color: rgb(0, 0, 0);
+   padding-left: 50px;
+}
+#packages p{
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 50px;
+    line-height: 1.5;
+}
+#contact
+{
+    height:100vh;
+    width:100%;
+    background-color: rgb(174, 226, 141);
+    filter:brightness(95%);
+    background-size: cover;
+    text-align: center;
+}
+#contact h1{
+    font-size: 3.5em;
+    padding-top: 2cm;
+    font-family: sans-serif;
+   color: rgb(0, 0, 0);
+
+}
+#contact section{
+    font-size: 2em;
+    line-height: 1.5;
+}
